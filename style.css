@@ -1,0 +1,174 @@
+body>img {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1000px;
+    height: 550px;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card>.title {
+    font-size: 45px;
+    font-weight: 600;
+    position: absolute;
+    left: auto;
+    top: 35%;
+    width: 400px;
+    height: auto;
+}
+
+.bordereau>.home {
+    position: absolute;
+    left: 370px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.bordereau>.ourservices {
+    position: absolute;
+    left: 435px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.card>.bordereau {
+    display: flex;
+}
+
+.bordereau>.services {
+    position: absolute;
+    left: 540px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.bordereau>.contactus {
+    position: absolute;
+    left: 620px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.card>.substitutive {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    position: absolute;
+    left: auto;
+    top: 60%;
+    width: 400px;
+    height: auto;
+}
+
+.card>.bouton {
+    position: absolute;
+    background: tomato;
+    left: auto;
+    top: 80%;
+    width: 33%;
+    height: 45px;
+    border-radius: 7px;
+    transition: opacity ease 0.8s;
+}
+
+.bouton:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.bouton>.texte {
+    position: absolute;
+    left: auto;
+    top: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.bordereau>.name {
+    color: tomato;
+    position: absolute;
+    font-size: 22px;
+    left: auto;
+    top: 20px;
+    font-family: "Dancing Script", serif;
+    font-weight: bold;
+}
+
+.card>img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: auto;
+}
+
+.bordereau>.btnsignin {
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    width: 96px;
+    height: 36px;
+    border: solid black 3px;
+    border-radius: 5px;
+    background-color: none;
+    transition: opacity ease 0.8s;
+}
+
+.btnsignin>.signin {
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    top: 7px;
+    left: 25px;
+}
+
+.btnsignin:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.bordereau>.btnsignup {
+    position: absolute;
+    right: 90px;
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: none;
+    background-color: grey;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity ease 0.8s;
+}
+
+.btnsignup>.signup {
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 9px;
+    left: 25px;
+}
+
+.btnsignup:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
